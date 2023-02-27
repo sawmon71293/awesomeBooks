@@ -1,4 +1,7 @@
 // eslint-disable-next-line import/extensions
+import { DateTime } from './node_modules/luxon/src/luxon.js';
+
+// eslint-disable-next-line import/extensions
 import Book from './modules/book.js';
 
 Book.updateDisplay();
@@ -30,8 +33,11 @@ document.querySelectorAll('section').forEach((s) => {
 section.style.display = 'block';
 function updateTime() {
   const date = document.getElementById('time');
-  const time = new Date();
-  date.innerHTML = `${time.toDateString()} , ${time.toLocaleTimeString()}`;
+  const time = DateTime.local().toLocaleString(
+    // eslint-disable-next-line comma-dangle
+    DateTime.DATETIME_MED_WITH_SECONDS
+  );
+  date.innerHTML = time;
 }
 
 setInterval(updateTime, 1000);
