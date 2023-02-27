@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Book</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper container mb-5">
+      <nav
+        class="d-flex justify-content-between mb-2 mt-3 navbar navbar-light bg-light"
+      >
+        <div class="mt-2 ms-3"><p>Awesome Books</p></div>
+        <div>
+          <ul class="d-flex justify-content-around nav">
+            <li class="me-3 nav-item border-end">
+              <a class="nav-link active link-dark" id="toList" href="#books">
+                List
+              </a>
+            </li>
+            <li class="me-3 nav-item border-end">
+              <a class="nav-link link-dark" id="toAdd" href="#add">Add new</a>
+            </li>
+            <li class="me-3 nav-item">
+              <a class="nav-link link-dark" id="toContact" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-end pe-5">
+        <p class="ms-5 mt-2 time" id="time"></p>
+      </div>
+      <div
+        class="content d-flex flex-column align-items-center justify-content-center"
+      >
+        <section id="books" class="w-100">
+          <h1 class="mb-5 text-center">All Awesome Books</h1>
+          <div id="bookList"></div>
+        </section>
+        <section id="add">
+          <h1>Add a new book</h1>
+          <form id="bookForm" class="d-flex flex-column mt-5">
+            <div class="col-sm-12 mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="title"
+                id="title"
+                placeholder="Title"
+                required
+              />
+            </div>
+            <div class="col-sm-12 mb-3">
+              <input
+                type="text"
+                name="author"
+                class="form-control"
+                id="author"
+                placeholder="Author"
+                required
+              />
+            </div>
+            <div class="col-sm-12 d-flex justify-content-end">
+              <input
+                type="submit"
+                class="btn btn-outline-dark"
+                id="addBook"
+                value="Add"
+              />
+            </div>
+          </form>
+        </section>
+        <section id="contact" class="contact mt-5 align-content-center">
+          <h1 class="mb-5">Contact Information</h1>
+          <p>Do you have any questions or you just want to say "Hello"?</p>
+          <p>You can reach out to us!</p>
+          <ul>
+            <li>Our email mail@gmail.com</li>
+            <li>Our phone umber 010233223232323</li>
+            <li>Our address Streetname 22,795695 City, Country</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <span class="text-muted">Copyright</span>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
