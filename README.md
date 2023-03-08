@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Library <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
-**Library** is an app to showcase pure javascript coding skill.
+**Awesome Books** is an app to implement pure javascript ES6.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,7 +66,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/library.git
+  git clone git@github.com:sawmon71293/awesomeBooks.git
 ```
 
 ### Install
@@ -98,19 +98,11 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/sawmon34268255)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
 
-👤 **Ronnie Bisaso**
-
-- GitHub: [@bronnie313](https://github.com/bronnie313)
-- Twitter: [@bisaso_r](https://twitter.com/bisaso_r)
-- LinkedIn: [Ronald Bisaso](https://linkedin.com/in/BisasoRonald)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-I plan to add more personal project links this project:
+I plan to add more features to this project:
 
 - [ ] **Implement a nice UI for great user experience**
 - [ ] **Add more functionalities**
@@ -147,6 +139,6 @@ I would like to thank Microverse for the opportunity to dream big.
 
 ## 📝 License <a name="license"></a>
 
-This project is [GNsU](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

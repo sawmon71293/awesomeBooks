@@ -12,6 +12,17 @@
     "stylelint-config-standard": "^29.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
-  }
+    "bootstrap": "^5.2.3",
+    "luxon": "^3.2.1"
+  },
+  "name": "awesomebooks",
+  "description": "<a name=\"readme-top\"></a>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
